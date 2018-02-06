@@ -13,6 +13,7 @@ def key_for_min_value(name_hash)
         if sorted_array[0]
         smallest_value = key
         end
+      end
   end
   
   smallest_value
