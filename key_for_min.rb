@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
   smallest_value = ""
+  sorted_array = []
   name_hash.each do |key, value|
-    sorted_array = []
     sorted_array << value
     sorted_array.sort
     if sorted_array[0]
