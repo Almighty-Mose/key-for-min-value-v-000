@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
     sorted_array = []
     name_hash.each do |key, value|
       sorted_array << value
+      binding.pry
       sorted_array.sort
       binding.pry
         if sorted_array[0]
